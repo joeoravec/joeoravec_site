@@ -1,0 +1,138 @@
+.rg-image-wrapper{
+	position:relative;
+	padding:2px 30px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	min-height:20px;
+	/* background:transparent url(../images/black.png) repeat top left; */
+}
+.rg-image{
+	position:relative;
+	text-align:center;
+	line-height:0px;
+	float: left;
+}
+.rg-image img{
+	max-height:100%;
+	max-width:100%;
+	padding: 0 15px 0 5px;
+}
+.rg-image-nav a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#000 url(../images/nav.png) no-repeat -20% 50%;
+	width:28px;
+	height:100%;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.3;
+	outline:none;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+.rg-image-nav a.rg-image-nav-next{
+	right:0px;
+	left:auto;
+	background-position:115% 50%;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+.rg-image-nav a:hover{
+	opacity:0.8;
+}
+.rg-caption {
+	position:relative;
+}
+.rg-caption p {
+	
+    font-family: "adobe-garamond-pro", "Garamond Premier Pro", Garamond, Times, serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-style: normal;
+    line-height: 1.4em;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+}
+.rg-view{
+	height:30px;
+}
+.rg-view a{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	background:#464646 url(../images/views.png) no-repeat top left;
+	border:3px solid #464646;
+	opacity:0.8;
+}
+.rg-view a:hover{
+	opacity:1.0;
+}
+.rg-view a.rg-view-full{
+	background-position:0px 0px;
+}
+.rg-view a.rg-view-selected{
+	background-color:#6f6f6f;
+	border-color:#6f6f6f;
+}
+.rg-view a.rg-view-thumbs{
+	background-position:0px -16px;
+}
+.rg-loading{
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#000 url(../images/ajax-loader.gif) no-repeat center center;
+	margin:-23px 0px 0px -23px;
+	z-index:100;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	opacity:0.7;
+}
+
+.rg-description {
+    font-family: "adobe-garamond-pro", "Garamond Premier Pro", Garamond, Times, serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    font-style: normal;
+    line-height: 1.4em;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    padding: 0.8em 0 1.2em 0;
+}
+
+.rg-title h3 {
+}
+
+.rg-role p {
+	font-family: "museo-sans-condensed", "Zurich Cn BT", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #222222;
+    text-decoration: none;
+}
+
+.rg-url a {
+	font-family: "museo-sans-condensed", "Zurich Cn BT", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.0em;
+    font-style: normal;
+    color: #692918;
+    text-decoration: none;
+}
+
+.rg-url a:hover {
+	color: #f25e38;
+    text-decoration: underline;
+	}
