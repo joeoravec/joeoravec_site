@@ -39,7 +39,7 @@
 
 
         <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">    
-            <div class="rg-image-wrapper">
+            <div class="rg-image-wrapper clearfix">
                 {{if itemsCount > 1}}
                     <div class="rg-image-nav">
                         <a href="#" class="rg-image-nav-prev">Previous Image</a>
