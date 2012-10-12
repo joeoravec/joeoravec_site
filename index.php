@@ -93,8 +93,7 @@
         </div>
 
         <header class="introduction" id="topsection">
-            <a name="top"></a>
-            <div class="container">
+            <div class="container" id="top">
                 <div class="row">
                     <div class="threecol"></div>
                     <div class="ninecol last introtext">
@@ -108,8 +107,7 @@
         </header>
 
         <section class="about" id="aboutsection">
-            <a name="about"></a>
-            <div class="container">
+            <div class="container" id="about">
                 <div class="row">
                     <div class="twelvecol last">
                         <h2>About Me</h2>
@@ -117,7 +115,7 @@
                 </div>
                 <div class="row">
                     <div class="sixcol">    
-                        <p>I started building websites professionally in the late ninties, completing my recovery from the shock of having woken up one morning as the owner of a degree in liberal arts. Since that first opportunity with a non-profit group, I&rsquo;ve worked for companies ranging from a Forture 100 company to a startup with a four-person development group. I&rsquo;m currently putting this range of experience to work for clients as a freelance web/UI designer and developer.</p>
+                        <p>I started building websites professionally in the late nineties, completing my recovery from the shock of having woken up one morning as the owner of a degree in liberal arts. Since that first opportunity with a non-profit group, I&rsquo;ve worked for companies ranging from a Forture 100 company to a startup with a four-person development group. I&rsquo;m currently putting this range of experience to work for clients as a freelance web/UI designer and developer.</p>
                         <p>I&rsquo;m based in New York, having recently relocated from Pittsburgh to just north of the GWB in Upstate Manhattan, where I live with my wife, our almost-toddling son, and a Weimaraner who&rsquo;s sure that she&rsquo;s an appropriate size for an NYC apartment.</p>
                     </div>
                     <div class="sixcol last">
@@ -129,7 +127,7 @@
                                 <p>Equally &ndash; if differently &ndash; creative, I&rsquo;ve done a range development work: building working web pages from design mockups in HTML/CSS; providing user interaction and feedback with Javascript and libraries like jQuery and YUI; and developing full-fledged applications with PHP and MySQL.</p></div>
                             <div class="aboutdes">
                                 <h4>Web &amp; UI Design</h4>
-                                <p>From initial application wireframes and site mockups through UI and page layout, I've created the visual design and user interface for a number of web sites and applications that put the focus on functionality, usabiity, and content.</p>
+                                <p>From initial application wireframes and site mockups through UI and page layout, I've created the visual design and user interface for a number of web sites and applications that put the focus on functionality, usability, and content.</p>
                             </div>
                         </div>
                     </div>
@@ -138,8 +136,7 @@
         </section>
 
         <section class="skills" id="skillssection">
-            <a name="skills"></a>
-            <div class="container">
+            <div class="container" id="skills">
                 <div class="row">
                     <div class="twelvecol last">
                         <h2>Skills &amp; Experience</h2>
@@ -175,8 +172,8 @@
         </section>
 
         <section class="work" id="worksection">
-            <a name="work"></a>
-            <div class="container">
+            <a></a>
+            <div class="container" id="work">
                 <div class="row">
                     <div class="twelvecol last">
                         <h2>Recent Work</h2>
@@ -214,11 +211,10 @@
         </section>
 
         <section class="final" id="contactsection">
-            <a name="contact"></a>
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="row">
                     <div class="twelvecol last">
-                        <div class=""><img src="img/jo_com_badge_avail.png" /></div>
+                        <div class=""><img src="img/jo_com_badge_avail.png" alt="I'm available for freelance!" /></div>
                     </div>
                 </div>
             </div>
@@ -251,17 +247,16 @@
                         <form class="contactForm" >
                             <label for="name">Name:</label>
                             <span>
-                            <input type="text" name="name" placeholder="Your Name" />
+                            <input type="text" name="name" id="name" placeholder="Your Name" />
                         </span>
-                            <label for="name">Email:</label>
+                            <label for="email">Email:</label>
                             <span>
-                            <input type="email" name="email" placeholder="Your Email" />
+                            <input type="email" name="email" id="email" placeholder="Your Email" />
                         </span>
-                            <label for="name">Message:</label>
+                            <label for="message">Message:</label>
                             <span>
-                            <textarea name="message" placeholder="Message text..."></textarea>
+                            <textarea name="message" id="message" placeholder="Message text..."></textarea>
                         </span>
-                            <span>
                             <input type="submit" name="submit" value="Form Coming Soon!" />
                         </form>
                     </div>
